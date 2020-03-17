@@ -21,7 +21,14 @@
     "request": "^2.88.0",
     "simple-youtube-api": "^5.0.2",
     "youtube-info": "^1.2.0",
-    "ytdl-core": "^0.21.1"
+    "ytdl-core": "^0.21.1",
+    "better-sqlite-pool": "^0.2.2",
+    "chalk": "^3.0.0",
+    "dotenv": "^8.2.0",
+    "ms": "^2.1.2",
+    "node-opus": "^0.3.3",
+    "sequelize": "^5.21.2",
+    "sqlite3": "^4.1.0"
   },
 
   "keywords": [
