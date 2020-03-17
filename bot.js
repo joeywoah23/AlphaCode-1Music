@@ -15,8 +15,6 @@ const {
 	token,
 } = require('./config.json');
 const talkedRecently = new Set();
-// THIS  MUST  BE  THIS  WAY
-client.login(process.env.BOT_TOKEN);
 
 console.log("Snoopy Worker has loaded... Commands have been queued...")
 client.on("message", message => {
@@ -1626,3 +1624,5 @@ const version = {
 		icon_url: 'https://cdn.discordapp.com/app-icons/682455200212058144/fe741000f4323b9afbaf7e208f4b7706.png?size=256&quot',
 	},
 };
+// THIS  MUST  BE  THIS  WAY
+client.login(process.env.BOT_TOKEN);
