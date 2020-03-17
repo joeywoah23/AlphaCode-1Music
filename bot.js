@@ -835,8 +835,8 @@ return message.reply("You can\'t report yourself!");
         // args = ["Is", "this", "the", "real", "life?"]
         const args = message.content.slice(config.prefix.length).trim().split(/ +/g);
         const command = args.shift().toLowerCase();
-        
-	        const Enmap = require("enmap");
+              });
+	const Enmap = require("enmap");
 client.points = new Enmap({name: "points"});
 client.on("message", message => {
   if (message.author.bot) return;
